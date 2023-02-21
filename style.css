@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat";
+    font-size: 20px;
+  }
+
+  section {
+    
+
+    min-height: 100vh;
+     width: 100%;
+    display: flex;
+    align-items: flex-start;
+   
+    background-image:url(https://firebasestorage.googleapis.com/v0/b/uktweb-b84e0.appspot.com/o/project.%20srs%2Fbackgroundimg%20new.jpg?alt=media&token=712be2b4-d7f1-48df-bdd3-56f932fb5565);
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  
+  section h1 {
+    color: blue;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  section p {
+    text-align: center;
+    color: wheat;
+    width: 100%;
+    margin-bottom: 40px;
+   
+  }
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .texts p {
+    color: black;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .texts p.replay {
+    text-align: right;
+  }
+  
